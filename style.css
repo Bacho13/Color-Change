@@ -39,3 +39,11 @@ button{
 	outline: inherit;
     border-radius: 5px;
 }
+.hexCodeContainer{
+    display: flex;
+    justify-content: center;
+}
+#hexCode{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+}

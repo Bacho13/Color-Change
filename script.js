@@ -17,7 +17,7 @@ function changeColor(){
 
     console.log(hexcode);
 
-    document.getElementsByClassName("hexCode").innerHTML = hexcode;
+    document.getElementById("hexCode").innerHTML = "#" + hexcode;
     
     document.getElementsByTagName("body")[0].style.background = "#" + hexcode;
 
